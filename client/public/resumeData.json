@@ -98,6 +98,33 @@
                 "name": "MongoDB",
                 "level": "80%"
             }
+        ],
+        "languages": [
+            {
+                "name": "French",
+                "image": "images/languages/french.jpg",
+                "level": "60%"
+            },
+            {
+                "name": "Spanish",
+                "image": "images/languages/spain.jpg",
+                "level": "90%"
+            },
+            {
+                "name": "English",
+                "image": "images/languages/usa.png",
+                "level": "50%"
+            },
+            {
+                "name": "Catalan",
+                "image": "images/languages/catalan.png",
+                "level": "90%"
+            },
+            {
+                "name": "Russia",
+                "image": "images/languages/russia.jpg",
+                "level": "80%"
+            }
         ]
     },
     "portfolio": {

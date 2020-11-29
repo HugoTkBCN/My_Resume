@@ -304,6 +304,10 @@ ul#nav li.current a { color: #00a4f0; }
   	margin-top: 36px;
    list-style: none;
 }
+.bars .languages {
+   margin-top: 36px;
+   list-style: none;
+}
 .bars li {
    position: relative;
   	margin-bottom: 60px;
@@ -332,6 +336,22 @@ ul#nav li.current a { color: #00a4f0; }
   	height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
+}
+
+.Languages {
+   display: flex;
+   flex-direction: row;
+   align-content: space-between;
+   margin: 10px;
+}
+
+.flags {
+   margin: 10px;
+}
+
+.flag {
+   height: 70px;
+   width: 100px;
 }
 /*
 .git {

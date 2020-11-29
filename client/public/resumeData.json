@@ -2,35 +2,34 @@
   "main": {
     "name":"Hugo Lachkar",
     "occupation":"Developper",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"Here you can find my resume website",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"My name is Hugo, I'm French and I'm 20 years old. I am student of Epitech Barcelona (3rd year), informatics school.",
+    "contactmessage":"Contact me through this formular",
     "email": "hugolachkar@gmail.com",
     "phone": "+34 620 397 972",
     "address":{
-      "street":"Carre Viladomat",
+      "street":"110 Carre Viladomat",
       "city":"Barcelona",
       "state":"Spain",
       "zip": "08015"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://www.hugolachkar.com",
+    "resumedownload":"Hugo_Lachkar_developer_2020.pdf",
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/hugo-lachkar-56a36314b/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/HugoTkBCN",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
         "school":"Epitech Barcelona",
@@ -40,25 +39,32 @@
       },
       {
         "school":"Liceo Frances de Barcelona",
-        "degree":"Baccaloreat Science",
+        "degree":"Baccaloréat Science",
         "graduated":"2016-2018",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work":[
       {
-        "company":"Assistant Epitech Barcelona",
-        "title":"Assistant ",
+        "company":"Epitech Barcelona",
+        "title":"AER - Pedagogical Assistant",
         "years":"September 2020 - Present",
         "description":"Assistant"
       },
       {
+        "company":"Freedgy",
+        "title":"Hardware manager / Web Developper",
+        "years":"September 2020 - Present",
+        "description":"Freedgy"
+      },
+      {
         "company":"Worldsensing",
-        "title":"Internship DevOps",
+        "title":"DevOps Engineer",
         "years":"September 2019 - January 2020",
         "description":"DevOps"
       }
     ],
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "skills":[
       {
         "name":"Git",

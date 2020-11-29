@@ -1,145 +1,149 @@
 {
-  "main": {
-    "name":"Hugo Lachkar",
-    "occupation":"Developper",
-    "description":"Here you can find my resume website",
-    "image":"profilepic.jpg",
-    "bio":"My name is Hugo, I'm French and I'm 20 years old. I am student of Epitech Barcelona (3rd year), informatics school.",
-    "contactmessage":"Contact me through this formular",
-    "email": "hugolachkar@gmail.com",
-    "phone": "+34 620 397 972",
-    "address":{
-      "street":"110 Carre Viladomat",
-      "city":"Barcelona",
-      "state":"Spain",
-      "zip": "08015"
+    "main": {
+        "name": "Hugo Lachkar",
+        "occupation": "Developper",
+        "description": "Here you can find my resume website",
+        "image": "profilepic.jpg",
+        "bio": "My name is Hugo, I'm French and I'm 20 years old. I am student of Epitech Barcelona.",
+        "contactmessage": "Contact me through this formular",
+        "email": "hugolachkar@gmail.com",
+        "phone": "+34 620 397 972",
+        "address": {
+            "street": "110 Carre Viladomat",
+            "city": "Barcelona",
+            "state": "Spain",
+            "zip": "08015"
+        },
+        "website": "https://www.hugolachkar.com",
+        "resumedownload": "Hugo_Lachkar_developer_2020.pdf",
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/hugo-lachkar-56a36314b/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/HugoTkBCN",
+                "className": "fa fa-github"
+            }
+        ]
     },
-    "website": "https://www.hugolachkar.com",
-    "resumedownload":"Hugo_Lachkar_developer_2020.pdf",
-    "social":[
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/hugo-lachkar-56a36314b/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/HugoTkBCN",
-        "className":"fa fa-github"
-      }
-    ]
-  },
-  "resume":{
-    "education":[
-      {
-        "school":"Epitech Barcelona",
-        "degree":"Master",
-        "graduated":"2018-2023",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"Liceo Frances de Barcelona",
-        "degree":"Baccaloréat Science",
-        "graduated":"2016-2018",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
-    ],
-    "work":[
-      {
-        "company":"Epitech Barcelona",
-        "title":"AER - Pedagogical Assistant",
-        "years":"September 2020 - Present",
-        "description":"Assistant"
-      },
-      {
-        "company":"Freedgy",
-        "title":"Hardware manager / Web Developper",
-        "years":"September 2020 - Present",
-        "description":"Freedgy"
-      },
-      {
-        "company":"Worldsensing",
-        "title":"DevOps Engineer",
-        "years":"September 2019 - January 2020",
-        "description":"DevOps"
-      }
-    ],
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "skills":[
-      {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"C",
-        "level":"90%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
-      }
-    ]
-  },
-  "portfolio":{
-    "projects": [
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Hugo Lachkar must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
-      }
-    ]
-  }
+    "resume": {
+        "education": [
+            {
+                "school": "Epitech Barcelona",
+                "degree": "Master",
+                "graduated": "2018-2023",
+                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription, DescriptionDescriptionDescriptionDescription",
+                "image": "images/schools/epitech.png"
+            },
+            {
+                "school": "Liceo Frances de Barcelona",
+                "degree": "Baccaloréat Science",
+                "graduated": "2016-2018",
+                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescri, ptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                "image": "images/schools/logo-LFB.png"
+            }
+        ],
+        "work": [
+            {
+                "company": "Epitech Barcelona",
+                "title": "AER - Pedagogical Assistant",
+                "years": "September 2020 - Present",
+                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription, DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                "image": "images/works/epitech.png"
+            },
+            {
+                "company": "Freedgy",
+                "title": "Hardware manager / Web Developper",
+                "years": "September 2020 - Present",
+                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription, DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                "image": "images/works/freedgy.png"
+            },
+            {
+                "company": "Worldsensing",
+                "title": "DevOps Engineer",
+                "years": "September 2019 - January 2020",
+                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription, DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                "image": "images/works/worldsensing.png"
+            }
+        ],
+        "skills": [
+            {
+                "name": "Git",
+                "level": "60%"
+            },
+            {
+                "name": "C",
+                "level": "90%"
+            },
+            {
+                "name": "ReactJs",
+                "level": "50%"
+            },
+            {
+                "name": "CSS",
+                "level": "90%"
+            },
+            {
+                "name": "HTML5",
+                "level": "80%"
+            },
+            {
+                "name": "VueJs",
+                "level": "50%"
+            },
+            {
+                "name": "MongoDB",
+                "level": "80%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Canadian Wanderlust",
+                "category": "My Travel Blog for my post-university travels",
+                "image": "canadian-wanderlust.jpg",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Fury Fighting Gear",
+                "category": "(offline now) A fighting gear company I started",
+                "image": "fury-fighting-gear.jpg",
+                "url": "http://www.timbakerdev.com"
+            },
+            {
+                "title": "Original Thai Food",
+                "category": "Website I built for a restaurant I like in Thailand",
+                "image": "original-thai-food.jpg",
+                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+            },
+            {
+                "title": "Resume Website",
+                "category": "A React based resume website template",
+                "image": "resume-website.jpg",
+                "url": "http://www.timbakerdev.com"
+            },
+            {
+                "title": "Smirkspace",
+                "category": "(MVP Only) A React and Meteor based chat University project.",
+                "image": "smirkspace.jpg",
+                "url": "http://www.smirkspace.com"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [
+            {
+                "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+                "user": "Kareem Abdul Jabbar"
+            },
+            {
+                "text": "That Hugo Lachkar must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+                "user": "Steve Wozniak... impersonator"
+            }
+        ]
+    }
 }

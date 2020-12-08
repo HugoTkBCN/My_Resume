@@ -13,12 +13,12 @@ build:
 
 re-build-backend:
 	sudo docker-compose down -v
-	sudo docker rmi dashboard/server:latest
+	sudo docker rmi resume/server:latest
 	sudo docker-compose build
 
 re-build-client:
 	sudo docker-compose down -v
-	sudo docker rmi dashboard/web:latest
+	sudo docker rmi resume/web:latest
 	sudo docker-compose build
 
 clean-db:

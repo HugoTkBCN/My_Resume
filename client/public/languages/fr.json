@@ -1,8 +1,9 @@
 {
     "main": {
+        "titleHeader": "Je suis Hugo Lachkar.",
         "name": "Hugo Lachkar",
         "occupation": "Developper",
-        "description": "Here you can find my resume website",
+        "description": "Je suis un développeur basé a Barcelone. Vous trouverais ici mon CV en ligne.",
         "image": "profilepic.jpg",
         "bio": "My name is Hugo, I'm French and I'm 20 years old. I am student of Epitech Barcelona.",
         "contactmessage": "Contact me through this formular",
@@ -27,7 +28,15 @@
                 "url": "https://github.com/HugoTkBCN",
                 "className": "fa fa-github"
             }
-        ]
+        ],
+        "navigation": {
+            "home": "Menu",
+            "about": "A Propos",
+            "resume": "Resumé",
+            "works": "Projet",
+            "testimonials": "Temoignage",
+            "contact": "Me contacter"
+        }
     },
     "resume": {
         "education": [

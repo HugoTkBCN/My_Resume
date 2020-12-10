@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LanguageSelector from '../Components/LanguageSelector';
 
 class Header extends Component {
     render() {
@@ -21,6 +22,7 @@ class Header extends Component {
             <header id="home">
 
                 <nav id="nav-wrap">
+                    <LanguageSelector />
 
                     <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                     <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 
-import LanguageSelector from '../Components/LanguageSelector';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import About from '../Components/About';
@@ -47,7 +46,6 @@ class EnglishPage extends Component {
     render() {
         return (
             <div className="App">
-                <LanguageSelector />
                 <Header data={this.state.resumeData.main} />
                 <About data={this.state.resumeData.main} />
                 <Resume data={this.state.resumeData.resume} />

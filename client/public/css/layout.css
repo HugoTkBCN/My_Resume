@@ -25,16 +25,17 @@
 body { background: #0f0f0f; }
 
 .languageSelector {
+   position: fixed;
+   right: 0;
+   margin: 10px;
    display: flex;
-   flex-direction: row;
-   align-content: space-between;
    align-items: center;
-   justify-content: flex-end;
+   justify-content: space-around;
+   width: 150px;
 }
-.languageSelector button {
-   width: 75px;
-   margin: 0 0 0 0;
-   padding: 0 0 0 0;
+.languageSelector a img {
+   width: 40px;
+   height: 25px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -152,7 +153,7 @@ header .scrolldown a:hover { color: #00a4f0; }
    text-transform: uppercase;
    letter-spacing: 2.5px;
    margin: 0 auto;
-   z-index: 100;
+   z-index: 2;
    position: fixed;
    left: 0;
    top: 0;
@@ -367,7 +368,7 @@ ul#nav li.current a { color: #00a4f0; }
 }
 
 .flag {
-   height: 70px;
+   height: 60px;
    width: 100px;
 }
 /*

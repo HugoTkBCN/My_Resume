@@ -5,7 +5,9 @@
         "occupation": "Developper",
         "description": "I'm a Barcelona based Developper. Here you can find my resume website.",
         "image": "profilepic.jpg",
+        "titleAbout": "About me",
         "bio": "My name is Hugo, I'm French and I'm 20 years old. I am student of Epitech Barcelona.",
+        "titleContactDetails": "To contact me",
         "contactmessage": "Contact me through this formular",
         "email": "hugolachkar@gmail.com",
         "phone": "+34 620 397 972",
@@ -16,6 +18,7 @@
             "zip": "08015"
         },
         "website": "https://www.hugolachkar.com",
+        "resumeDownloadTitle" : "Download Resume",
         "resumedownload": "Hugo_Lachkar_developer_2020.pdf",
         "social": [
             {
@@ -60,21 +63,21 @@
                 "company": "Epitech Barcelona",
                 "title": "AER - Pedagogical Assistant",
                 "years": "September 2020 - Present",
-                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription, DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                "description": "nDescriptionDescription",
                 "image": "images/works/epitech.png"
             },
             {
                 "company": "Freedgy",
                 "title": "Hardware manager / Web Developper",
                 "years": "September 2020 - Present",
-                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription, DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                "description": "ionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
                 "image": "images/works/freedgy.png"
             },
             {
                 "company": "Worldsensing",
-                "title": "DevOps Engineer",
+                "title": "DevOps Engineer (Site reliability engineer)",
                 "years": "September 2019 - January 2020",
-                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription, DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                "description": "I did a 4 month internship as DevOps as part of my studies.",
                 "image": "images/works/worldsensing.png"
             }
         ],
@@ -121,7 +124,7 @@
             },
             {
                 "name": "English",
-                "image": "images/languages/usa.png",
+                "image": "images/languages/english.png",
                 "level": "50%"
             },
             {

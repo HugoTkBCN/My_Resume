@@ -5,7 +5,9 @@
         "occupation": "Developper",
         "description": "Je suis un développeur basé a Barcelone. Vous trouverais ici mon CV en ligne.",
         "image": "profilepic.jpg",
-        "bio": "My name is Hugo, I'm French and I'm 20 years old. I am student of Epitech Barcelona.",
+        "titleAbout": "A propos de moi",
+        "bio": "Je m'appel Hugo, j'ai 20 ans et je suis étudiant à Epitech Barcelone.",
+        "titleContactDetails": "Pour me contacter",
         "contactmessage": "Contact me through this formular",
         "email": "hugolachkar@gmail.com",
         "phone": "+34 620 397 972",
@@ -16,6 +18,7 @@
             "zip": "08015"
         },
         "website": "https://www.hugolachkar.com",
+        "resumeDownloadTitle" : "Télécharger CV",
         "resumedownload": "Hugo_Lachkar_developer_2020.pdf",
         "social": [
             {
@@ -121,7 +124,7 @@
             },
             {
                 "name": "English",
-                "image": "images/languages/usa.png",
+                "image": "images/languages/english.png",
                 "level": "50%"
             },
             {

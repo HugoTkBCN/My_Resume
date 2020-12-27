@@ -1,26 +1,41 @@
 import React, { Component } from 'react';
+import StarRatings from 'react-star-ratings';
 
 class Resume extends Component {
     render() {
 
         if (this.props.data) {
+            var educationTitle = this.props.data.educationTitle;
             var education = this.props.data.education.map(function (education) {
                 return <div key={education.school}><h3><img alt="schoolLogo" className="schoolLogo" src={education.image}></img>{education.school}</h3>
                     <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
                     <p>{education.description}</p></div>
             })
+            var workTitle = this.props.data.workTitle;
             var work = this.props.data.work.map(function (work) {
                 return <div key={work.company}><h3><img alt="workLogo" className="workLogo" src={work.image}></img>{work.company}</h3>
                     <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
                     <p>{work.description}</p>
                 </div>
             })
+            var skillsTitle = this.props.data.skillsTitle;
             var skills = this.props.data.skills.map(function (skills) {
                 var className = 'bar-expand ' + skills.name.toLowerCase();
                 return <li key={skills.name}><span style={{ width: skills.level }} className={className}></span><em>{skills.name}</em></li>
             })
+            var languageTitle = this.props.data.languagesTitle;
             var languages = this.props.data.languages.map(function (language) {
-                return <div key={language.name} className="flags"><img alt="flag" className="flag" src={language.image}></img></div>
+                return <div key={language.name} className="flags">
+                    <img alt="flag" className="flag" src={language.image}></img>
+                    <StarRatings
+                        rating={language.level}
+                        starDimension="15px"
+                        starSpacing="5px"
+                        starRatedColor="#00a4f0"
+                        numberOfStars={5}
+                        isSelectable={false}
+                    />
+                </div>
             })
         }
 
@@ -28,7 +43,7 @@ class Resume extends Component {
             <section id="resume">
                 <div className="row education">
                     <div className="three columns header-col">
-                        <h1><span>Education</span></h1>
+                        <h1><span>{educationTitle}</span></h1>
                     </div>
                     <div className="nine columns main-col">
                         <div className="row item">
@@ -41,7 +56,7 @@ class Resume extends Component {
 
                 <div className="row work">
                     <div className="three columns header-col">
-                        <h1><span>Work</span></h1>
+                        <h1><span>{workTitle}</span></h1>
                     </div>
                     <div className="nine columns main-col">
                         {work}
@@ -50,7 +65,7 @@ class Resume extends Component {
 
                 <div className="row skill">
                     <div className="three columns header-col">
-                        <h1><span>Skills</span></h1>
+                        <h1><span>{skillsTitle}</span></h1>
                     </div>
                     <div className="nine columns main-col">
                         <div className="bars">
@@ -63,7 +78,7 @@ class Resume extends Component {
 
                 <div className="row language">
                     <div className="three columns header-col">
-                        <h1><span>Languages</span></h1>
+                        <h1><span>{languageTitle}   </span></h1>
                     </div>
                     <div className="nine columns main-col">
                         <ul className="Languages">

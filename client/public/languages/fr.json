@@ -42,134 +42,125 @@
         }
     },
     "resume": {
+        "educationTitle": "Education",
         "education": [
             {
                 "school": "Epitech Barcelona",
                 "degree": "Master",
                 "graduated": "2018-2023",
-                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription, DescriptionDescriptionDescriptionDescription",
+                "description": "Actuellement etudiant un master en informatique.",
                 "image": "images/schools/epitech.png"
             },
             {
                 "school": "Liceo Frances de Barcelona",
                 "degree": "Baccaloréat Science",
                 "graduated": "2016-2018",
-                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescri, ptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                "description": "Specialié Science et programmation.",
                 "image": "images/schools/logo-LFB.png"
             }
         ],
+        "workTitle" : "Experience",
         "work": [
             {
                 "company": "Epitech Barcelona",
                 "title": "AER - Pedagogical Assistant",
                 "years": "September 2020 - Present",
-                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription, DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                "description": "Assistant pedagogique en part time a Epitech pendant 6 mois pour les étudiants de 1er et 2eme année.",
                 "image": "images/works/epitech.png"
             },
             {
                 "company": "Freedgy",
                 "title": "Hardware manager / Web Developper",
                 "years": "September 2020 - Present",
-                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription, DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                "description": "Creation d'une petite startup avec 4 autres étudiants en même temp que mes études.",
                 "image": "images/works/freedgy.png"
             },
             {
                 "company": "Worldsensing",
-                "title": "DevOps Engineer",
+                "title": "DevOps Engineer (Site reliability engineer)",
                 "years": "September 2019 - January 2020",
-                "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription, DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+                "description": "Stage de 4 mois en tant que DevOps pendant mes études.",
                 "image": "images/works/worldsensing.png"
             }
         ],
+        "skillsTitle": "Skills",
         "skills": [
             {
-                "name": "Git",
-                "level": "60%"
+                "name": "DevOps (Docker, Google Cloud Platform, Jenkins ...)",
+                "level": "95%"
             },
             {
-                "name": "C",
+                "name": "C / C++ / Bash / Python",
                 "level": "90%"
             },
             {
                 "name": "ReactJs",
-                "level": "50%"
+                "level": "60%"
             },
             {
-                "name": "CSS",
-                "level": "90%"
+                "name": "NodeJs",
+                "level": "70%"
             },
             {
-                "name": "HTML5",
-                "level": "80%"
-            },
-            {
-                "name": "VueJs",
-                "level": "50%"
-            },
-            {
-                "name": "MongoDB",
-                "level": "80%"
+                "name": "HTML/PHP/CSS",
+                "level": "70%"
             }
+
         ],
+        "languagesTitle": "Languages",
         "languages": [
             {
                 "name": "French",
                 "image": "images/languages/french.jpg",
-                "level": "60%"
+                "level": 5
             },
             {
                 "name": "Spanish",
                 "image": "images/languages/spain.jpg",
-                "level": "90%"
+                "level": 4.3
             },
             {
                 "name": "English",
                 "image": "images/languages/english.png",
-                "level": "50%"
+                "level": 3.5
             },
             {
                 "name": "Catalan",
                 "image": "images/languages/catalan.png",
-                "level": "90%"
+                "level": 1.5
             },
             {
                 "name": "Russia",
                 "image": "images/languages/russia.jpg",
-                "level": "80%"
+                "level": 0.5
             }
         ]
     },
     "portfolio": {
         "projects": [
             {
-                "title": "Canadian Wanderlust",
-                "category": "My Travel Blog for my post-university travels",
+                "title": "Freedgy",
+                "category": "Freedgy.com Landing page",
                 "image": "canadian-wanderlust.jpg",
-                "url": "https://www.canadianwanderlust.com"
+                "url": "https://www.freedgy.com"
             },
             {
-                "title": "Fury Fighting Gear",
-                "category": "(offline now) A fighting gear company I started",
+                "title": "Wakoky",
+                "category": "Wakoky Est un site web ou vous pouvex créer des playlists en utilisant des liens Youtube.",
                 "image": "fury-fighting-gear.jpg",
-                "url": "http://www.timbakerdev.com"
+                "url": "https://www.wakoky.com"
             },
             {
-                "title": "Original Thai Food",
-                "category": "Website I built for a restaurant I like in Thailand",
+                "title": "BCN-Immobilier",
+                "category": "BCN-Immobilier est une landing page d'agent immobilier.",
                 "image": "original-thai-food.jpg",
-                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+                "url": "https://www.bcn-immobilier.com"
             },
             {
                 "title": "Resume Website",
-                "category": "A React based resume website template",
+                "category": "Mon CV en ligne en React.",
                 "image": "resume-website.jpg",
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Smirkspace",
-                "category": "(MVP Only) A React and Meteor based chat University project.",
-                "image": "smirkspace.jpg",
-                "url": "http://www.smirkspace.com"
+                "url": "https://www.hugolachkar.com"
             }
         ]
     },

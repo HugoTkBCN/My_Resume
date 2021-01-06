@@ -8,7 +8,7 @@
         "titleAbout": "Sobre mi",
         "bio": "Me llamo Hugo, soy Frances, tengo 20 años y estudio en Epitech Barcelona.",
         "titleContactDetails": "Para contactar me",
-        "contactmessage": "Contact me through this formular",
+        "contactmessage": "Contactame con este formulario",
         "email": "hugolachkar@gmail.com",
         "phone": "+34 620 397 972",
         "address": {
@@ -16,6 +16,13 @@
             "city": "Barcelona",
             "state": "Spain",
             "zip": "08015"
+        },
+        "contact": {
+            "name": "Nombre / Apelidos",
+            "email": "Email",
+            "subject": "Objecto",
+            "message": "Mensaje",
+            "submit": "Enviar"
         },
         "website": "https://www.hugolachkar.com",
         "resumeDownloadTitle" : "Descargar Curriculum",
@@ -48,7 +55,7 @@
                 "school": "Epitech Barcelona",
                 "degree": "Master",
                 "graduated": "2018-2023",
-                "description": "Actualemente graduando un Master en informatica.",
+                "description": "Actualmente en 3er año de un Título de Experto en Tecnologías de la Información.",
                 "image": "images/schools/epitech.png"
             },
             {
@@ -65,14 +72,14 @@
                 "company": "Epitech Barcelona",
                 "title": "AER - Pedagogical Assistant",
                 "years": "September 2020 - Present",
-                "description": "Haciendo un trabajo a medio tiempo como assistante pedagologico en Epitech para los de primero y segundo grado, al mismo tiempo que mis estudios.",
+                "description": "Profesor de informática para estudiantes de primer y segundo año.",
                 "image": "images/works/epitech.png"
             },
             {
                 "company": "Freedgy",
                 "title": "Hardware manager / Web Developper",
                 "years": "September 2020 - Present",
-                "description": "Creando una pequeña startup con 4 otros alumonos.",
+                "description": "Creando una pequeña startup con 6 otros alumonos.",
                 "image": "images/works/freedgy.png"
             },
             {
@@ -137,6 +144,7 @@
         ]
     },
     "portfolio": {
+        "title" : "Algunos de mis proyectos",
         "projects": [
             {
                 "title": "Freedgy",

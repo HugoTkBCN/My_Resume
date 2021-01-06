@@ -17,6 +17,13 @@
             "state": "Spain",
             "zip": "08015"
         },
+        "contact": {
+            "name": "Name / surname",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message",
+            "submit": "Submit"
+        },
         "website": "https://www.hugolachkar.com",
         "resumeDownloadTitle" : "Download Resume",
         "resumedownload": "Hugo_Lachkar_developer_2020.pdf",
@@ -48,7 +55,7 @@
                 "school": "Epitech Barcelona",
                 "degree": "Master",
                 "graduated": "2018-2023",
-                "description": "Actually graduating a Master in informatique",
+                "description": "Currently a 3rd-year student building up an IT Expert Degree.",
                 "image": "images/schools/epitech.png"
             },
             {
@@ -65,7 +72,7 @@
                 "company": "Epitech Barcelona",
                 "title": "AER - Pedagogical Assistant",
                 "years": "September 2020 - Present",
-                "description": "Doing a 6 month part time as pedagogical assistant at Epitech for 1st and 2nd years students.",
+                "description": "1st and 2nd year Epitech's students IT teacher.",
                 "image": "images/works/epitech.png"
             },
             {
@@ -137,6 +144,7 @@
         ]
     },
     "portfolio": {
+        "title" : "Some of My Works",
         "projects": [
             {
                 "title": "Freedgy",

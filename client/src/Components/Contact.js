@@ -13,6 +13,12 @@ class Contact extends Component {
        // eslint-disable-next-line
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
+      var titlename = this.props.data.contact.name;
+      var titleemail = this.props.data.contact.email;
+      var titlesubject = this.props.data.contact.subject;
+      var titlemessage = this.props.data.contact.message;
+      var titlesubmit = this.props.data.contact.submit;
+      var titlecontact = this.props.data.titleContactDetails;
     }
 
     return (
@@ -41,27 +47,27 @@ class Contact extends Component {
 					<fieldset>
 
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
+						   <label htmlFor="contactName">{titlename} <span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
 
                   <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+						   <label htmlFor="contactEmail">{titleemail} <span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
                   </div>
 
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
+						   <label htmlFor="contactSubject">{titlesubject}</label>
 						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                     <label htmlFor="contactMessage">{titlemessage} <span className="required">*</span></label>
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit">{titlesubmit}</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
@@ -69,9 +75,9 @@ class Contact extends Component {
 					</fieldset>
 				   </form>
 
-           <div id="message-warning"> Error boy</div>
+           <div id="message-warning"> Error</div>
 				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
+                  <i className="fa fa-check"></i>{titlesubmit}<br />
 				   </div>
            </div>
 
@@ -79,12 +85,13 @@ class Contact extends Component {
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
-					   <h4>Address and Phone</h4>
+					   <h4>{titlecontact}</h4>
 					   <p className="address">
 						   {name}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+						   {phone}<br />
+                     {email}
 					   </p>
 				   </div>
             </aside>

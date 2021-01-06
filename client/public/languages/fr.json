@@ -8,7 +8,7 @@
         "titleAbout": "A propos de moi",
         "bio": "Je m'appel Hugo, j'ai 20 ans et je suis étudiant à Epitech Barcelone.",
         "titleContactDetails": "Pour me contacter",
-        "contactmessage": "Contact me through this formular",
+        "contactmessage": "Contactez moi à travers ce formulaire",
         "email": "hugolachkar@gmail.com",
         "phone": "+34 620 397 972",
         "address": {
@@ -16,6 +16,13 @@
             "city": "Barcelona",
             "state": "Spain",
             "zip": "08015"
+        },
+        "contact": {
+            "name": "Prénom / Nom",
+            "email": "Email",
+            "subject": "Objet",
+            "message": "Message",
+            "submit": "Envoyer"
         },
         "website": "https://www.hugolachkar.com",
         "resumeDownloadTitle" : "Télécharger CV",
@@ -48,7 +55,7 @@
                 "school": "Epitech Barcelona",
                 "degree": "Master",
                 "graduated": "2018-2023",
-                "description": "Actuellement etudiant un master en informatique.",
+                "description": "Actuellement en 3e année me dirigeant vers un Titre d'Expert en Technologies de l'Information.",
                 "image": "images/schools/epitech.png"
             },
             {
@@ -65,14 +72,14 @@
                 "company": "Epitech Barcelona",
                 "title": "AER - Pedagogical Assistant",
                 "years": "September 2020 - Present",
-                "description": "Assistant pedagogique en part time a Epitech pendant 6 mois pour les étudiants de 1er et 2eme année.",
+                "description": "Professeur d'informatique des étudiants de 1e et 2e années.",
                 "image": "images/works/epitech.png"
             },
             {
                 "company": "Freedgy",
                 "title": "Hardware manager / Web Developper",
                 "years": "September 2020 - Present",
-                "description": "Creation d'une petite startup avec 4 autres étudiants en même temp que mes études.",
+                "description": "Creation d'une petite startup avec 6 autres étudiants en même temp que mes études.",
                 "image": "images/works/freedgy.png"
             },
             {
@@ -137,6 +144,7 @@
         ]
     },
     "portfolio": {
+        "title" : "Quelques un de mes projets",
         "projects": [
             {
                 "title": "Freedgy",

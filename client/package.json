@@ -2,7 +2,6 @@
   "name": "personalportfolio",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://backend:8080",
   "dependencies": {
     "jquery": "^3.2.1",
     "react": "^16.2.0",

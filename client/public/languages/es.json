@@ -141,25 +141,25 @@
             {
                 "title": "Freedgy",
                 "category": "Freedgy.com Landing page",
-                "image": "canadian-wanderlust.jpg",
+                "image": "freedgy.png",
                 "url": "https://www.freedgy.com"
             },
             {
                 "title": "Wakoky",
                 "category": "Wakoky es un sitio web donde puedes crear playlists usando enlaces de Youtube.",
-                "image": "fury-fighting-gear.jpg",
+                "image": "wakoky.png",
                 "url": "https://www.wakoky.com"
             },
             {
                 "title": "BCN-Immobilier",
                 "category": "BCN-Immobilier es una Landing Page.",
-                "image": "original-thai-food.jpg",
+                "image": "bcn-immobilier.png",
                 "url": "https://www.bcn-immobilier.com"
             },
             {
                 "title": "Resume Website",
                 "category": "Mi Curriculum en React",
-                "image": "resume-website.jpg",
+                "image": "resume-website.png",
                 "url": "https://www.hugolachkar.com"
             }
         ]

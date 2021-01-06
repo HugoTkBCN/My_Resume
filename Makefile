@@ -11,21 +11,10 @@ restart:
 build:
 	sudo docker-compose build
 
-re-build-backend:
-	sudo docker-compose down -v
-	sudo docker rmi resume/server:latest
-	sudo docker-compose build
-
-re-build-client:
+re-build:
 	sudo docker-compose down -v
 	sudo docker rmi resume/web:latest
 	sudo docker-compose build
 
-clean-db:
-	sudo rm -rf data
-
-logs-server:
-	sudo docker logs server
-
-logs-client:
+logs:
 	sudo docker logs web

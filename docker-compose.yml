@@ -13,7 +13,7 @@ services:
           SSL_CRT_FILE: "/usr/src/app/ssl/cert.pem"
           SSL_KEY_FILE: "/usr/src/app/ssl/key.pem"
         ports:
-          - "80:3000"
+          - "443:3000"
         volumes:
           - ./client:/usr/src/app/
           - /usr/src/app/node_modules

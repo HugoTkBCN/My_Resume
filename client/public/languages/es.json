@@ -101,16 +101,20 @@
                 "level": "90%"
             },
             {
-                "name": "ReactJs",
-                "level": "60%"
-            },
-            {
-                "name": "NodeJs",
+                "name": "ReactJs / NodeJs",
                 "level": "70%"
             },
             {
                 "name": "HTML/PHP/CSS",
                 "level": "70%"
+            },
+            {
+                "name": "Git",
+                "level": "95%"
+            },
+            {
+                "name": "Agile",
+                "level": "90%"
             }
 
         ],

@@ -1,6 +1,6 @@
 {
     "main": {
-        "titleHeader": "Je suis Hugo Lachkar.",
+        "titleHeader": "Je suis Hugo Lachkar",
         "name": "Hugo Lachkar",
         "occupation": "Developper",
         "description": "Je suis un développeur basé a Barcelone. Vous trouverais ici mon CV en ligne.",
@@ -12,7 +12,7 @@
         "email": "hugolachkar@gmail.com",
         "phone": "+34 620 397 972",
         "address": {
-            "street": "110 Carre Viladomat",
+            "street": "Calle Viladomat 110t",
             "city": "Barcelona",
             "state": "Spain",
             "zip": "08015"

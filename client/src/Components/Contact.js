@@ -6,13 +6,13 @@ class Contact extends Component {
    render() {
 
       if (this.props.data) {
+         var title = this.props.data.navigation.contact;
          var name = this.props.data.name;
          var street = this.props.data.address.street;
          var city = this.props.data.address.city;
          var state = this.props.data.address.state;
          var zip = this.props.data.address.zip;
          var phone = this.props.data.phone;
-         // eslint-disable-next-line
          var email = this.props.data.email;
          var message = this.props.data.contactmessage;
          var titlename = this.props.data.contact.name;
@@ -48,7 +48,7 @@ class Contact extends Component {
 
                <div className="two columns header-col">
 
-                  <h1><span>Get In Touch.</span></h1>
+                  <h1><span>{title}</span></h1>
 
                </div>
 

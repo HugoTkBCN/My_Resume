@@ -10,7 +10,6 @@ class Header extends Component {
             var about = this.props.data.navigation.about;
             var resume = this.props.data.navigation.resume;
             var works = this.props.data.navigation.works;
-            var testimonials = this.props.data.navigation.testimonials;
             var contact = this.props.data.navigation.contact;
             var description = this.props.data.description;
             var networks = this.props.data.social.map(function (network) {

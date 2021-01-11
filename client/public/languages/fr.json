@@ -6,7 +6,7 @@
         "description": "Je suis un développeur basé à Barcelone. Vous trouverez ici mon CV en ligne.",
         "image": "profilepic.jpg",
         "titleAbout": "A propos de moi",
-        "bio": "Je m'appel Hugo, j'ai 20 ans et je suis étudiant à Epitech Barcelone.",
+        "bio": "Je m'appelle Hugo, j'ai 20 ans et je suis étudiant à Epitech Barcelone.",
         "titleContactDetails": "Pour me contacter",
         "contactmessage": "Contactez-moi à travers ce formulaire",
         "email": "hugolachkar@gmail.com",
@@ -54,7 +54,7 @@
                 "school": "Epitech Barcelona",
                 "degree": "Master",
                 "graduated": "2018-2023",
-                "description": "Actuellement en 3e année me dirigeant vers un Titre d'Expert en Technologies de l'Information.",
+                "description": "Actuellement en 3ème année me dirigeant vers un Titre d'Expert en Technologies de l'Information.",
                 "image": "images/schools/epitech.png"
             },
             {
@@ -71,7 +71,7 @@
                 "company": "Epitech Barcelona",
                 "title": "AER - Pedagogical Assistant",
                 "years": "Septembre 2020 - Aujourd'hui",
-                "description": "Professeur d'informatique pour des étudiants de 1e et 2e années.",
+                "description": "Professeur d'informatique pour des étudiants de 1er et 2ème années.",
                 "image": "images/works/epitech.png"
             },
             {
@@ -147,7 +147,7 @@
         ]
     },
     "portfolio": {
-        "title" : "Quelques-un de mes projets",
+        "title" : "Quelques-uns de mes projets",
         "projects": [
             {
                 "title": "Freedgy",

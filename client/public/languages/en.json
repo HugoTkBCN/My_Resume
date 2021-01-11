@@ -26,7 +26,7 @@
         },
         "website": "https://www.hugolachkar.com",
         "resumeDownloadTitle" : "Download Resume",
-        "resumedownload": "Hugo_Lachkar_developer_2020.pdf",
+        "resumedownload": "Hugo_Lachkar_developer_2020_en.pdf",
         "social": [
             {
                 "name": "linkedin",
@@ -79,7 +79,7 @@
                 "company": "Freedgy",
                 "title": "Hardware manager / Web Developper",
                 "years": "September 2020 - Present",
-                "description": "Creation of a little startup with 6 other students, as part of my studies.",
+                "description": "Create a startup with 6 other students, as part of my studies.",
                 "image": "images/works/freedgy.png"
             },
             {

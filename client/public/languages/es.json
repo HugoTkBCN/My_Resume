@@ -26,7 +26,7 @@
         },
         "website": "https://www.hugolachkar.com",
         "resumeDownloadTitle" : "Descargar Curriculum",
-        "resumedownload": "Hugo_Lachkar_developer_2020.pdf",
+        "resumedownload": "Hugo_Lachkar_developer_2020_es.pdf",
         "social": [
             {
                 "name": "linkedin",
@@ -49,7 +49,7 @@
         }
     },
     "resume": {
-        "educationTitle": "Education",
+        "educationTitle": "Educacion",
         "education": [
             {
                 "school": "Epitech Barcelona",
@@ -66,31 +66,31 @@
                 "image": "images/schools/logo-LFB.png"
             }
         ],
-        "workTitle" : "Experience",
+        "workTitle" : "Experiencia",
         "work": [
             {
                 "company": "Epitech Barcelona",
                 "title": "AER - Pedagogical Assistant",
-                "years": "September 2020 - Present",
+                "years": "Septiembre 2020 - Hoy",
                 "description": "Profesor de informática para estudiantes de primer y segundo año.",
                 "image": "images/works/epitech.png"
             },
             {
                 "company": "Freedgy",
                 "title": "Hardware manager / Web Developper",
-                "years": "September 2020 - Present",
-                "description": "Creando una pequeña startup con 6 otros alumonos.",
+                "years": "Septiembre 2020 - Hoy",
+                "description": "Creacion de una startup con 6 otros alumonos.",
                 "image": "images/works/freedgy.png"
             },
             {
                 "company": "Worldsensing",
                 "title": "DevOps Engineer (Site reliability engineer)",
-                "years": "September 2019 - January 2020",
+                "years": "Septiembre 2019 - Enero 2020",
                 "description": "Practicas de 4 meses como DevOps al mismo tiempo que mis estudios.",
                 "image": "images/works/worldsensing.png"
             }
         ],
-        "skillsTitle": "Skills",
+        "skillsTitle": "Competencias",
         "skills": [
             {
                 "name": "DevOps (Docker, Google Cloud Platform, Jenkins ...)",

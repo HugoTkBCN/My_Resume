@@ -12,7 +12,7 @@
         "email": "hugolachkar@gmail.com",
         "phone": "+34 620 397 972",
         "address": {
-            "street": "Calle Viladomat 110t",
+            "street": "Calle Viladomat 110",
             "city": "Barcelona",
             "state": "Spain",
             "zip": "08015"
@@ -26,7 +26,7 @@
         },
         "website": "https://www.hugolachkar.com",
         "resumeDownloadTitle" : "Télécharger CV",
-        "resumedownload": "Hugo_Lachkar_developer_2020.pdf",
+        "resumedownload": "Hugo_Lachkar_developer_2020_fr.pdf",
         "social": [
             {
                 "name": "linkedin",
@@ -71,26 +71,26 @@
             {
                 "company": "Epitech Barcelona",
                 "title": "AER - Pedagogical Assistant",
-                "years": "September 2020 - Present",
+                "years": "Septembre 2020 - Aujourd'hui",
                 "description": "Professeur d'informatique des étudiants de 1e et 2e années.",
                 "image": "images/works/epitech.png"
             },
             {
                 "company": "Freedgy",
                 "title": "Hardware manager / Web Developper",
-                "years": "September 2020 - Present",
-                "description": "Creation d'une petite startup avec 6 autres étudiants en même temp que mes études.",
+                "years": "Septembre 2020 - Aujourd'hui",
+                "description": "Creation d'une startup avec 6 autres étudiants en même temp que mes études.",
                 "image": "images/works/freedgy.png"
             },
             {
                 "company": "Worldsensing",
                 "title": "DevOps Engineer (Site reliability engineer)",
-                "years": "September 2019 - January 2020",
+                "years": "Septembre 2019 - Janvier 2020",
                 "description": "Stage de 4 mois en tant que DevOps pendant mes études.",
                 "image": "images/works/worldsensing.png"
             }
         ],
-        "skillsTitle": "Skills",
+        "skillsTitle": "Compétences",
         "skills": [
             {
                 "name": "DevOps (Docker, Google Cloud Platform, Jenkins ...)",

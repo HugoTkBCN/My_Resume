@@ -3,12 +3,12 @@
         "titleHeader": "Soy Hugo Lachkar",
         "name": "Hugo Lachkar",
         "occupation": "Developper",
-        "description": "Soy un desarrollador de Barcelona. Aqui podra encuntrar mi curriculum.",
+        "description": "Soy un desarrollador de Barcelona. Aquí podrás encontrar mi currículum.",
         "image": "profilepic.jpg",
         "titleAbout": "Sobre mi",
-        "bio": "Me llamo Hugo, soy Frances, tengo 20 años y estudio en Epitech Barcelona.",
+        "bio": "Me llamo Hugo, soy Francés, tengo 20 años y estudio en Epitech Barcelona.",
         "titleContactDetails": "Para contactar me",
-        "contactmessage": "Contactame con este formulario",
+        "contactmessage": "Contacta me con este formulario",
         "email": "hugolachkar@gmail.com",
         "phone": "+34 620 397 972",
         "address": {
@@ -42,9 +42,8 @@
         "navigation": {
             "home": "Menu",
             "about": "Sobre mi",
-            "resume": "Resumen",
+            "resume": "Curriculum",
             "works": "Proyectos",
-            "testimonials": "Testimonials",
             "contact": "Contactarme"
         }
     },
@@ -55,7 +54,7 @@
                 "school": "Epitech Barcelona",
                 "degree": "Master",
                 "graduated": "2018-2023",
-                "description": "Actualmente en 3er año de un Título de Experto en Tecnologías de la Información.",
+                "description": "Actualmente en tercer año de un Título de Experto en Tecnologías de la Información.",
                 "image": "images/schools/epitech.png"
             },
             {
@@ -118,7 +117,7 @@
             }
 
         ],
-        "languagesTitle": "Languages",
+        "languagesTitle": "Idiomas",
         "languages": [
             {
                 "name": "French",
@@ -152,7 +151,7 @@
         "projects": [
             {
                 "title": "Freedgy",
-                "category": "Freedgy.com Landing page",
+                "category": "Freedgy.com landing page",
                 "image": "freedgy.png",
                 "url": "https://www.freedgy.com"
             },
@@ -164,7 +163,7 @@
             },
             {
                 "title": "BCN-Immobilier",
-                "category": "BCN-Immobilier es una Landing Page.",
+                "category": "BCN-Immobilier es una landing Page de un agente inmobiliario.",
                 "image": "bcn-immobilier.png",
                 "url": "https://www.bcn-immobilier.com"
             },

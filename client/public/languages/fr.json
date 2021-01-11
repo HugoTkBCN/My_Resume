@@ -3,12 +3,12 @@
         "titleHeader": "Je suis Hugo Lachkar",
         "name": "Hugo Lachkar",
         "occupation": "Developper",
-        "description": "Je suis un développeur basé a Barcelone. Vous trouverais ici mon CV en ligne.",
+        "description": "Je suis un développeur basé à Barcelone. Vous trouverez ici mon CV en ligne.",
         "image": "profilepic.jpg",
         "titleAbout": "A propos de moi",
         "bio": "Je m'appel Hugo, j'ai 20 ans et je suis étudiant à Epitech Barcelone.",
         "titleContactDetails": "Pour me contacter",
-        "contactmessage": "Contactez moi à travers ce formulaire",
+        "contactmessage": "Contactez-moi à travers ce formulaire",
         "email": "hugolachkar@gmail.com",
         "phone": "+34 620 397 972",
         "address": {
@@ -42,9 +42,8 @@
         "navigation": {
             "home": "Menu",
             "about": "A Propos",
-            "resume": "Resumé",
+            "resume": "Cv",
             "works": "Projet",
-            "testimonials": "Temoignage",
             "contact": "Me contacter"
         }
     },
@@ -62,7 +61,7 @@
                 "school": "Liceo Frances de Barcelona",
                 "degree": "Baccaloréat Science",
                 "graduated": "2016-2018",
-                "description": "Specialié Science et programmation.",
+                "description": "Spécialité science et programmation.",
                 "image": "images/schools/logo-LFB.png"
             }
         ],
@@ -72,14 +71,14 @@
                 "company": "Epitech Barcelona",
                 "title": "AER - Pedagogical Assistant",
                 "years": "Septembre 2020 - Aujourd'hui",
-                "description": "Professeur d'informatique des étudiants de 1e et 2e années.",
+                "description": "Professeur d'informatique pour des étudiants de 1e et 2e années.",
                 "image": "images/works/epitech.png"
             },
             {
                 "company": "Freedgy",
                 "title": "Hardware manager / Web Developper",
                 "years": "Septembre 2020 - Aujourd'hui",
-                "description": "Creation d'une startup avec 6 autres étudiants en même temp que mes études.",
+                "description": "Création d'une startup avec 6 autres étudiants en même temps que mes études.",
                 "image": "images/works/freedgy.png"
             },
             {
@@ -118,7 +117,7 @@
             }
 
         ],
-        "languagesTitle": "Languages",
+        "languagesTitle": "Langues",
         "languages": [
             {
                 "name": "French",
@@ -148,7 +147,7 @@
         ]
     },
     "portfolio": {
-        "title" : "Quelques un de mes projets",
+        "title" : "Quelques-un de mes projets",
         "projects": [
             {
                 "title": "Freedgy",
@@ -158,7 +157,7 @@
             },
             {
                 "title": "Wakoky",
-                "category": "Wakoky Est un site web ou vous pouvex créer des playlists en utilisant des liens Youtube.",
+                "category": "Wakoky est un site web où vous pouvez créer des playlists en utilisant des liens Youtube.",
                 "image": "wakoky.png",
                 "url": "https://www.wakoky.com"
             },
@@ -170,7 +169,7 @@
             },
             {
                 "title": "Resume Website",
-                "category": "Mon CV en ligne en React.",
+                "category": "Mon CV en ligne en ReactJs.",
                 "image": "resume-website.png",
                 "url": "https://www.hugolachkar.com"
             }

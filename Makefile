@@ -13,8 +13,12 @@ build:
 
 re-build:
 	sudo docker-compose down -v
-	sudo docker rmi resume/web:latest
+	sudo docker rmi resume/https:latest
+	sudo docker rmi resume/http:latest
 	sudo docker-compose build
 
-logs:
-	sudo docker logs web
+logs-https:
+	sudo docker logs https
+
+logs-http:
+	sudo docker logs http

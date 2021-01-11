@@ -1,11 +1,11 @@
 version: "3"
 services:
-    frontend:
-        container_name: web
+    https:
+        container_name: https
         build:
           context: ./client
           dockerfile: Dockerfile
-        image: resume/web
+        image: resume/https
         environment:
           DANGEROUSLY_DISABLE_HOST_CHECK: "true"
           REACT_APP_NODE_PATH: "src"
@@ -18,3 +18,17 @@ services:
           - ./client:/usr/src/app/
           - /usr/src/app/node_modules
           - ./ssl:/usr/src/app/ssl/
+    http:
+        container_name: http
+        build:
+          context: ./client
+          dockerfile: Dockerfile
+        image: resume/http
+        environment:
+          DANGEROUSLY_DISABLE_HOST_CHECK: "true"
+          REACT_APP_NODE_PATH: "src"
+        ports:
+          - "80:3000"
+        volumes:
+          - ./client:/usr/src/app/
+          - /usr/src/app/node_modules

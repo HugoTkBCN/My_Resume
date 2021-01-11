@@ -2,8 +2,8 @@
     "main": {
         "titleHeader": "I'm Hugo Lachkar",
         "name": "Hugo Lachkar",
-        "occupation": "Developper",
-        "description": "I'm a Barcelona based Developper. Here you can find my resume website.",
+        "occupation": "Developer",
+        "description": "I'm a Barcelona based Developer. Here you can find my resume website.",
         "image": "profilepic.jpg",
         "titleAbout": "About me",
         "bio": "My name is Hugo, I'm French and I'm 20 years old. I am student of Epitech Barcelona.",
@@ -77,7 +77,7 @@
             },
             {
                 "company": "Freedgy",
-                "title": "Hardware manager / Web Developper",
+                "title": "Hardware manager / Web Developer",
                 "years": "September 2020 - Present",
                 "description": "Create a startup with 6 other students, as part of my studies.",
                 "image": "images/works/freedgy.png"

@@ -2,7 +2,7 @@
     "main": {
         "titleHeader": "Soy Hugo Lachkar",
         "name": "Hugo Lachkar",
-        "occupation": "Developper",
+        "occupation": "Developer",
         "description": "Soy un desarrollador de Barcelona. Aquí podrás encontrar mi currículum.",
         "image": "profilepic.jpg",
         "titleAbout": "Sobre mi",
@@ -76,7 +76,7 @@
             },
             {
                 "company": "Freedgy",
-                "title": "Hardware manager / Web Developper",
+                "title": "Hardware manager / Web Developer",
                 "years": "Septiembre 2020 - Hoy",
                 "description": "Creacion de una startup con 6 otros alumonos.",
                 "image": "images/works/freedgy.png"

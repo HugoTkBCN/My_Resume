@@ -25,7 +25,7 @@
             "submit": "Envoyer"
         },
         "website": "https://www.hugolachkar.com",
-        "resumeDownloadTitle" : "Télécharger CV",
+        "resumeDownloadTitle": "Télécharger CV",
         "resumedownload": "Hugo_Lachkar_developer_2020_fr.pdf",
         "social": [
             {
@@ -65,8 +65,15 @@
                 "image": "images/schools/logo-LFB.png"
             }
         ],
-        "workTitle" : "Experience",
+        "workTitle": "Experience",
         "work": [
+            {
+                "company": "Coding Academy by Epitech",
+                "title": "Professeur",
+                "years": "Mars 2021 - Aujourd'hui",
+                "description": "Professeur de développement Web/Mobile fullstack et DevOps.",
+                "image": "images/works/codingacademy.png"
+            },
             {
                 "company": "Epitech Barcelona",
                 "title": "AER - Pedagogical Assistant",
@@ -93,29 +100,28 @@
         "skills": [
             {
                 "name": "DevOps (Docker, Google Cloud Platform, Jenkins ...)",
-                "level": "95%"
-            },
-            {
-                "name": "C / C++ / Bash / Python",
                 "level": "90%"
             },
             {
-                "name": "ReactJs / NodeJs",
-                "level": "70%"
+                "name": "C / C++ / Bash / Python",
+                "level": "75%"
             },
             {
-                "name": "HTML/PHP/CSS/MySQL",
+                "name": "ReactJs / React Native / NodeJs / MongoDB",
+                "level": "80%"
+            },
+            {
+                "name": "HTML / PHP / CSS / MySQL",
                 "level": "70%"
             },
             {
                 "name": "Git",
-                "level": "95%"
+                "level": "90%"
             },
             {
                 "name": "Agile",
                 "level": "90%"
             }
-
         ],
         "languagesTitle": "Langues",
         "languages": [
@@ -138,16 +144,11 @@
                 "name": "Catalan",
                 "image": "images/languages/catalan.png",
                 "level": 1.5
-            },
-            {
-                "name": "Russia",
-                "image": "images/languages/russia.jpg",
-                "level": 0.5
             }
         ]
     },
     "portfolio": {
-        "title" : "Quelques-uns de mes projets",
+        "title": "Quelques-uns de mes projets",
         "projects": [
             {
                 "title": "Freedgy",

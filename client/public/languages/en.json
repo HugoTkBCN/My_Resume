@@ -25,7 +25,7 @@
             "submit": "Submit"
         },
         "website": "https://www.hugolachkar.com",
-        "resumeDownloadTitle" : "Download Resume",
+        "resumeDownloadTitle": "Download Resume",
         "resumedownload": "Hugo_Lachkar_developer_2020_en.pdf",
         "social": [
             {
@@ -66,13 +66,20 @@
                 "image": "images/schools/logo-LFB.png"
             }
         ],
-        "workTitle" : "Experience",
+        "workTitle": "Experience",
         "work": [
+            {
+                "company": "Coding Academy by Epitech",
+                "title": "Teacher",
+                "years": "March 2021 - Present",
+                "description": "Web/Mobile fullstack developement and DevOps Teacher",
+                "image": "images/works/codingacademy.png"
+            },
             {
                 "company": "Epitech Barcelona",
                 "title": "AER - Pedagogical Assistant",
                 "years": "September 2020 - Present",
-                "description": "1st and 2nd year Epitech's students IT teacher.",
+                "description": "1st and 2nd year Epitech's students IT Teacher.",
                 "image": "images/works/epitech.png"
             },
             {
@@ -94,29 +101,28 @@
         "skills": [
             {
                 "name": "DevOps (Docker, Google Cloud Platform, Jenkins ...)",
-                "level": "95%"
-            },
-            {
-                "name": "C / C++ / Bash / Python",
                 "level": "90%"
             },
             {
-                "name": "ReactJs / NodeJs",
-                "level": "70%"
+                "name": "C / C++ / Bash / Python",
+                "level": "75%"
             },
             {
-                "name": "HTML/PHP/CSS/MySQL",
+                "name": "ReactJs / React Native / NodeJs / MongoDB",
+                "level": "80%"
+            },
+            {
+                "name": "HTML / PHP / CSS / MySQL",
                 "level": "70%"
             },
             {
                 "name": "Git",
-                "level": "95%"
+                "level": "90%"
             },
             {
                 "name": "Agile",
                 "level": "90%"
             }
-
         ],
         "languagesTitle": "Languages",
         "languages": [
@@ -139,16 +145,11 @@
                 "name": "Catalan",
                 "image": "images/languages/catalan.png",
                 "level": 1.5
-            },
-            {
-                "name": "Russia",
-                "image": "images/languages/russia.jpg",
-                "level": 0.5
             }
         ]
     },
     "portfolio": {
-        "title" : "Some of My Works",
+        "title": "Some of My Works",
         "projects": [
             {
                 "title": "Freedgy",
